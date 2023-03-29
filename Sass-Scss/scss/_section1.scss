@@ -1,0 +1,41 @@
+.sec1{height: 100vh;
+    position: relative;
+    top: 7px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    .box{
+        width: 200px;
+        height: 200px;
+        border: 2px dotted black;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: yellow;
+       transition: 0.9s;
+       &:hover{
+           transform: rotateX(360deg);
+        img{
+            display: block;
+            
+        }
+        h1{
+            display: none;
+        }
+       }
+       img{
+        width: 200px;
+        height: 200px;
+        display: none;
+       }
+
+    }
+}
+}    
